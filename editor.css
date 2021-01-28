@@ -1,0 +1,152 @@
+*{outline:none !important}
+button{cursor: pointer;}
+.bold{font-weight:bold;
+}
+.italics{
+    font-style:italic;
+    font-family:Georgia;       
+}
+.italic{
+    font-style:italic;
+}
+.con{
+    font-size: 22px;          
+}
+.under{
+    text-decoration:underline;
+}
+.mSpan, .oSpan,.list{
+    cursor: pointer;
+    border: 1px solid #d9d9d9;     
+    background-color:white;
+           
+}
+.editor button, .editor select, .editor input,#link{
+    height: 30px;
+    float:left !important;
+}
+#link{
+    background-color:white;
+    border: 1px solid #d9d9d9;
+    position:relative;
+}
+#link img{
+    width:22px;
+}
+.mSpan{
+     padding: 2px 5px;
+}
+.con button > img{
+    height: 18px;
+    width: 22px;
+}
+#content{
+    margin-top: 10px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding: 5px;
+}
+.light{
+    background-color: #f2f2f2 !important;
+}
+#content > div:focus{
+    border: 0px solid white !important;
+}
+#content p{
+    line-height:normal
+}
+#linkDropD{
+    display:none;position:absolute; width: 400px;background-color:white;
+    border: 1px solid #d9d9d9;border-radius: 5px;padding:10px;
+}
+#linkDropD input[type=text]{
+    width: 280px;padding-left:10px;
+}
+#linkDropD input, #linkDropD button{
+     height: 30px !important;border-radius: 5px;border: 1px solid #d9d9d9;
+     margin-left: 5px;
+}
+#fontFamily{
+width: 150px !important;
+}
+#fontSize{
+width: 80px !important;
+}
+#fontFamily, #fontSize{
+float:left !important; border-radius:0px;margin:0px !important; border: 1px solid #d9d9d9;padding:0px;
+}
+.upload-btn-wrapper {
+position: relative;
+overflow: hidden;
+display: inline-block;
+}
+
+.si_toolbar2 .btn{
+float:left;cursor:pointer;
+}
+
+.upload-btn-wrapper input[type=file] {
+font-size: 100px;
+position: absolute;
+left: 0;
+top: 0;
+opacity: 0;
+}
+.imgDiv{
+display: inline;
+}
+.resizable:hover .resizer{
+display:inline-block;
+}
+.resizable {
+background: white;
+width: 200px ;
+height: 200px;
+position: relative;
+}
+
+.resizable img{
+width: 100%;
+height: 100%;
+box-sizing: border-box;
+}
+
+.resizable  .resizer{
+width: 10px;
+height: 10px;
+border-radius: 50%; /*magic to turn square into circle*/
+background: white;
+border: 3px solid #4286f4;
+position: absolute;
+display:none;
+}
+
+.resizable  .resizer.top-left {
+left: -5px;
+top: -5px;
+cursor: nwse-resize; /*resizer cursor*/
+}
+.resizable .resizer.top-right {
+right: -5px;
+top: -5px;
+cursor: nesw-resize;
+}
+.resizable  .resizer.bottom-left {
+left: -5px;
+bottom: -5px;
+cursor: nesw-resize;
+}
+.resizable .resizer.bottom-right {
+right: -5px;
+bottom: -5px;
+cursor: nwse-resize;
+}
+.outlineEd {
+border-radius: 5px;
+margin-top: 5px;
+border: 1px solid #41aeb5;
+}
+.sight-editor > div:nth-child(2){padding:10px}
+.sight-editor > div:first-child{padding:10px 10px 0px}
+.sight-editor > div:first-child button{height: 35px;}
+.outlineEd > div:last-child{border-radius: 0px 0px 5px 5px !important;}
